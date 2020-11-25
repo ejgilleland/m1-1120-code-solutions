@@ -1,0 +1,23 @@
+.hoverboy {
+  padding: 10px 25px;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  border-radius: 12.5px;
+  background-color: lightblue;
+}
+
+.hoverboy:hover {
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+
+th {
+  color: white;
+  background-color: black;
+}
+
+tr:nth-child(odd) {
+  background-color: lightgray;
+}
