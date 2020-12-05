@@ -1,0 +1,87 @@
+/* Main style(s) to inherit */
+
+html {
+  font-family: Karla, sans-serif;
+}
+
+/* Semantic  styles */
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.graytext {
+  color: darkslategrey;
+}
+
+.line-height {
+  line-height: 1.75;
+}
+
+.font-fourteen {
+  font-size: 14pt;
+}
+
+/* id and class selectors */
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 5% auto;
+}
+
+.row {
+  display: flex;
+}
+
+.column-full {
+  max-width: 100%;
+  display: flex;
+}
+
+.column-half {
+  max-width: 50%;
+  display: flex;
+  margin: 50px 50px 0 50px;
+}
+
+#title {
+  font-size: 400%;
+  letter-spacing: 0.2rem;
+  margin: 0 0 0.4em 0;
+}
+
+.subtitle {
+  width: 65%;
+  margin: auto;
+  line-height: 1.75;
+}
+
+.section-header {
+  max-width: 80%;
+  margin-top: 2.75rem;
+  letter-spacing: 0.05rem;
+  padding-right: 25px;
+}
+
+.image-container {
+  margin-right: 2%;
+}
+
+.button-container {
+  display: flex;
+}
+
+#learn-button {
+  color: #d14c45;
+  border: 2px solid #d14c45;
+  background-color: transparent;
+  padding: 0.9rem 3rem;
+  font-weight: 700;
+  font-size: 16px;
+}
