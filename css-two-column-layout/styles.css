@@ -26,22 +26,16 @@ html {
   font-size: 14pt;
 }
 
-/* id and class selectors */
+/* element, id, and class selectors */
 
-.container {
-  display: flex;
-  flex-wrap: wrap;
+section {
   max-width: 1200px;
   margin: 5% auto;
 }
 
 .row {
   display: flex;
-}
-
-.column-full {
-  max-width: 100%;
-  display: flex;
+  justify-content: space-around;
 }
 
 .column-half {
@@ -75,13 +69,16 @@ html {
 
 .button-container {
   display: flex;
+  justify-content: center;
+  padding-top: 2.5rem;
 }
 
 #learn-button {
   color: #d14c45;
   border: 2px solid #d14c45;
-  background-color: transparent;
+  background: none;
   padding: 0.9rem 3rem;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 12pt;
+  letter-spacing: 0.1rem;
 }
