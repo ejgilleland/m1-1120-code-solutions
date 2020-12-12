@@ -60,7 +60,6 @@ html {
   background-attachment: initial;
   max-width: min(1600px, calc(100% - 8rem));
   margin: auto auto 3rem auto;
-  position: relative;
 }
 
 .overlay {
@@ -71,14 +70,13 @@ html {
   margin: auto;
 }
 
-.homepage-content1 > section {
-  position: absolute;
-  top: 3rem;
-  left: 4rem;
+.homepage-content1 section {
+  padding-top: 3rem;
+  padding-left: 4rem;
   line-height: 2rem;
 }
 
-.homepage-content1 > section > h1 {
+.homepage-content1 section > h1 {
   line-height: 4rem;
   font-size: 3rem;
 }
@@ -87,7 +85,7 @@ html {
   line-height: 2rem;
 }
 
-.homepage-content1 > section > p {
+.homepage-content1 section > p {
   margin-bottom: 2rem;
 }
 
