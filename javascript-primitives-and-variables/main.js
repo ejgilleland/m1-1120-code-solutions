@@ -10,10 +10,10 @@ console.log('Data type for variable fullName: ', typeof fullName);
 console.log('Data type for variable isCool: ', typeof isCool);
 console.log('Data type for variable totalPets: ', typeof totalPets);
 
-var unknown = null;
+var unknown = null; // null is being assigned to the variable named unknown
 console.log('Variable unknown: ', unknown);
 console.log('Data type for variable unknown: ', typeof unknown);
 
-var never;
+var never; // the variable named never is being declared
 console.log('Variable never: ', never);
 console.log('Data type for variable never: ', typeof never);
