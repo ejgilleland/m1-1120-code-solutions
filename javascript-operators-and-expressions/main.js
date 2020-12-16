@@ -2,6 +2,12 @@ var width = 7;
 var height = 5;
 var area = width * height;
 
+/* The value stored within the variable width is being
+multiplied with the value stored in the variable height
+and the result of that expression is being assigned
+to the variable named area
+*/
+
 console.log('area: ', area);
 console.log('Data type for area: ', typeof area);
 
@@ -29,6 +35,11 @@ console.log('Data type for fullName: ', typeof fullName);
 
 var pH = 5;
 var isAcidic = pH < 7;
+
+/* the value stored within the variable named pH is being
+compared less than the number 7, and the result of that expression
+is being assigned to the variable isAcidic
+*/
 
 console.log('isAcidic: ', isAcidic);
 console.log('Data type for isAcidic: ', typeof isAcidic);
