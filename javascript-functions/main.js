@@ -1,9 +1,22 @@
-
 function convertMinutesToSeconds(minutes) {
   var seconds = minutes * 60;
   return seconds;
 }
+
+/* there is a function definition named convertMinutesToSeconds with
+one parameter named minutes. Opening curly brace for the function code block
+
+line 3: value stored within the variable seconds is being returned from
+the function
+line 4: closing curly brace for the code block
+*/
 var convertMinutesToSecondsResult = convertMinutesToSeconds(6);
+/* function convertMinutesToSeconds is being called
+passing in one argument, 6
+the return value is being assigned to
+the variable named converMinutesToSecondsResult
+*/
+
 console.log('convertMinutesToSeconds with an argument of 6: ', convertMinutesToSecondsResult);
 
 function greet(name) {
