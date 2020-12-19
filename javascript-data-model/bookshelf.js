@@ -17,5 +17,8 @@ var bookshelf = [
 ];
 
 console.log("The author of '" + bookshelf[1].title + "':", bookshelf[1].author);
+/* we are calling the log method of the console argument, a string and the
+value stored in the author property of bookshelf at [1] */
+
 console.log("The ISBN of '" + bookshelf[0].title + "': ", bookshelf[0].isbn);
 console.log('The third book in the bookshelf is: ', "'" + bookshelf[2].title + "'.");
