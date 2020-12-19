@@ -1,0 +1,35 @@
+html {
+  font-family: Barlow, sans-serif;
+  text-align: center;
+  font-size: 18px;
+  background-color: rgb(246, 247, 249);
+}
+
+body > h1 {
+  font-weight: 800;
+  margin-top: 3rem;
+}
+
+.full-container {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.phone-screen {
+  height: 550px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.small-icon {
+  height: 4.5rem;
+}
+
+.column-container > h3 {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
