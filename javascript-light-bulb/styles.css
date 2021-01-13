@@ -1,0 +1,32 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: calc(50vh - 150px);
+  display: flex;
+  justify-content: center;
+}
+
+.room-on {
+  background-color: lemonchiffon;
+}
+
+.room-off {
+  background-color: rgb(44, 44, 44);
+}
+
+.lightbulb {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+}
+
+.bulb-on {
+  background-color: rgb(247, 239, 151);
+}
+
+.bulb-off {
+  background-color: rgb(95, 95, 95);
+  box-shadow: 0 -5px 0 0 rgb(0, 0, 0), 0 -15px 0 10px rgb(22, 22, 22);
+}
