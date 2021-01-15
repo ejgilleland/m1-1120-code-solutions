@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Varela Round', sans-serif;
+}
+
+button {
+  font-family: inherit;
+  font-size: 20px;
+  border: none;
+  padding: 7px 20px 7px 20px;
+  border-radius: 5px;
+  background-color: mediumspringgreen;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.75);
+}
+
+button:active {
+  outline: none;
+  transform: translateY(4px);
+}
+
+.modal {
+  min-width: 100%;
+  min-height: 100vh;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.modal-box {
+  width: 400px;
+  height: 150px;
+  background-color: white;
+  border-radius: 7px;
+}
+
+#close-modal {
+  background-color: rgb(165, 58, 58);
+}
+
+.hidden {
+  display: none;
+}
