@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+
+.text-container {
+  height: 95vh;
+  padding-top: 33vh;
+}
+
+.correct {
+  color: rgb(26, 197, 40);
+  border: none;
+}
+
+.active {
+  border-bottom: 3px solid black;
+}
+
+.incorrect {
+  color: red;
+  border-bottom: 3px solid red;
+}
