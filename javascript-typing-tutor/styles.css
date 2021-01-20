@@ -25,3 +25,22 @@ html {
   color: red;
   border-bottom: 3px solid red;
 }
+
+button {
+  font-family: inherit;
+  padding: 0 1.5rem 0 1.5rem;
+  border-radius: 5px;
+  background-color: rgb(26, 197, 40);
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:active {
+  transform: translateY(4px);
+}
+
+.hidden {
+  display: none;
+}
